@@ -9,6 +9,11 @@ There is [English](https://github.com/RangDuk/data-science-portfolio/blob/master
 * [Santander Value Prediction Challenge by Banco Santandar]()
 * [Home Credit Default Risk by Home Credit Group]()
 
+### Deep Learning
+* [Multi-Layer Perceptron: MNIST Data](https://github.com/RangDuk/data-science-portfolio/blob/master/Multi-Layer%20Perceptron%20-%20MNIST%20data.ipynb) - 다층 퍼셉트론을 이용한 딥러닝을 통해 MNIST 이미지 파일을 예측함. Adam Optimizer를 활용.  
+* [Deep Neural Network Classifier: Fake Bank Note Authentication](https://github.com/RangDuk/data-science-portfolio/blob/master/Deep%20Neural%20Network%20Classifier%20-%20Fake%20Bank%20Note%20Authentication.ipynb) - DDNClassifer을 이용한 딥러닝을 활용하여 은행권(bank note)이 진짜인지 가짜인지 구분하는 모델 개발. 예측지수가 예상외로 높아 현실성검사를 위해 마지막에 랜덤 포레스트 모델로 검증.
+*tools used: Tensorflow, scikit-learn, Pandas, Seaborn, Matplotlib*
+
 ### Machine Learning
 * [로지스틱 회귀분석: Advertisement Clicked](https://github.com/RangDuk/data-science-portfolio/blob/master/Logistic%20Regression%20-%20Is%20the%20Advertisement%20Clicked.ipynb) - 로지스틱 회귀분석을 사용해 사용자가 인터넷 광고에 클릭을 할지 예측하는 예측모델.
 * [K-최근접 이웃기법: Unsupervised Machine Learning](https://github.com/RangDuk/data-science-portfolio/blob/master/K%20Nearest%20Neighbors%20-%20Classified%20Dataset.ipynb) - K-최근접 이웃기법을 이용한 비지도학습 시스템 예측모델 개발.

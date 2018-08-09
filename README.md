@@ -1,13 +1,18 @@
 This repository contains portfolio of data science projects completed by me for academic, self learning, and hobby purposes.
 The projects are presented in the form of Jupyter Notebooks.
 
-[한국어 포트폴리오]()는 여기에 있습니다.
+[한국어 포트폴리오](https://github.com/RangDuk/data-science-portfolio/blob/master/README(kr).md)는 여기에 있습니다.
 
 ## Content
 
 ### Kaggle Competitions
 * [Santander Value Prediction Challenge by Banco Santandar]()
 * [Home Credit Default Risk by Home Credit Group]()
+
+### Deep Learning
+* [Multi-Layer Perceptron: MNIST Data](https://github.com/RangDuk/data-science-portfolio/blob/master/Multi-Layer%20Perceptron%20-%20MNIST%20data.ipynb) - Using multi-layered perceptron method to classify image files. Utilized Adam Optimizer to minimize cost.  
+* [Deep Neural Network Classifier: Fake Bank Note Authentication](https://github.com/RangDuk/data-science-portfolio/blob/master/Deep%20Neural%20Network%20Classifier%20-%20Fake%20Bank%20Note%20Authentication.ipynb) - Using DNNClassifier method to predict whether the bank note is authentic or not. Used StandardScaler() to normalize the data and then DNN Estimator to predict the outcome. The accuracy was unusually high, so performed Random Forest Classifer to do a reality check. 
+*tools used: Tensorflow, scikit-learn, Pandas, Seaborn, Matplotlib*
 
 ### Machine Learning
 * [Logistic Regression: Advertisement Clicked](https://github.com/RangDuk/data-science-portfolio/blob/master/Logistic%20Regression%20-%20Is%20the%20Advertisement%20Clicked.ipynb) - Using logistic regression model to predict whether the user has clicked on the internet advertisement.
