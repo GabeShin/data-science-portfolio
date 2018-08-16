@@ -11,7 +11,8 @@ The projects are presented in the form of Jupyter Notebooks.
 
 ### Deep Learning
 * [Multi-Layer Perceptron: MNIST Data](https://github.com/RangDuk/data-science-portfolio/blob/master/Multi-Layer%20Perceptron%20-%20MNIST%20data.ipynb) - Using multi-layered perceptron method to classify image files. Utilized Adam Optimizer to minimize cost.  
-* [Deep Neural Network Classifier: Fake Bank Note Authentication](https://github.com/RangDuk/data-science-portfolio/blob/master/Deep%20Neural%20Network%20Classifier%20-%20Fake%20Bank%20Note%20Authentication.ipynb) - Using DNNClassifier method to predict whether the bank note is authentic or not. Used StandardScaler() to normalize the data and then DNN Estimator to predict the outcome. The accuracy was unusually high, so performed Random Forest Classifer to do a reality check. 
+* [Deep Neural Network Classifier: Fake Bank Note Authentication](https://github.com/RangDuk/data-science-portfolio/blob/master/Deep%20Neural%20Network%20Classifier%20-%20Fake%20Bank%20Note%20Authentication.ipynb) - Using DNNClassifier method to predict whether the bank note is authentic or not. Used StandardScaler() to normalize the data and then DNN Estimator to predict the outcome. The accuracy was unusually high, so performed Random Forest Classifer to do a reality check.
+* [Facial Expression Recognition](https://github.com/RangDuk/data-science-portfolio/blob/master/Facial%20Expression%20Recognition.ipynb) - Only used Numpy to build one hidden-layered neural network model. Purpose of this project was to deepen understanding of the structure of neural network and to unveil what is happening under the hood of modern neural network libraries.
 *tools used: Tensorflow, scikit-learn, Pandas, Seaborn, Matplotlib*
 
 ### Machine Learning

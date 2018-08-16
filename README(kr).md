@@ -10,6 +10,7 @@ There is [English](https://github.com/RangDuk/data-science-portfolio/blob/master
 * [Home Credit Default Risk by Home Credit Group]()
 
 ### Deep Learning
+* [Facial Expression Recognition](https://github.com/RangDuk/data-science-portfolio/blob/master/Facial%20Expression%20Recognition.ipynb) - Numpy 라이브러리만 사용하여 인공신경망 모델을 만듬. 이 프로젝트는 본인의 인공신경망 모델에 대한 이해도를 높이고 단순 plug-and-run이 아닌 모던 라이브러리에 대한 이해도를 높이기 위함. Tanh Activation을 이용한 binary classification 모델과 Softmax를 사용한 classification 모델 만듬.
 * [Multi-Layer Perceptron: MNIST Data](https://github.com/RangDuk/data-science-portfolio/blob/master/Multi-Layer%20Perceptron%20-%20MNIST%20data.ipynb) - 다층 퍼셉트론을 이용한 딥러닝을 통해 MNIST 이미지 파일을 예측함. Adam Optimizer를 활용.  
 * [Deep Neural Network Classifier: Fake Bank Note Authentication](https://github.com/RangDuk/data-science-portfolio/blob/master/Deep%20Neural%20Network%20Classifier%20-%20Fake%20Bank%20Note%20Authentication.ipynb) - DDNClassifer을 이용한 딥러닝을 활용하여 은행권(bank note)이 진짜인지 가짜인지 구분하는 모델 개발. 예측지수가 예상외로 높아 현실성검사를 위해 마지막에 랜덤 포레스트 모델로 검증.
 *tools used: Tensorflow, scikit-learn, Pandas, Seaborn, Matplotlib*
