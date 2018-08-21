@@ -6,8 +6,9 @@ The projects are presented in the form of Jupyter Notebooks.
 ## Content
 
 ### Kaggle Competitions
-* [Santander Value Prediction Challenge by Banco Santandar]()
-* [Home Credit Default Risk by Home Credit Group]()
+* [Home Credit Default Risk by Home Credit Group](https://www.kaggle.com/c/home-credit-default-risk)
+    * [EDA and Random Tree baseline model](https://github.com/RangDuk/data-science-portfolio/blob/master/201808%20-%20Home%20Credit%20Default%20Risk/Home%20Credit%20Default%20Risk%20-%20EDA.ipynb) - Did extensive EDA on the datasets and feature importance explorations. Also built baseline Random Tree model (Score: 0.731).
+    * [Feature Enginnering]() - Manual Feature engineering updated soon.
 
 ### Deep Learning
 * [Multi-Layer Perceptron: MNIST Data](https://github.com/RangDuk/data-science-portfolio/blob/master/Multi-Layer%20Perceptron%20-%20MNIST%20data.ipynb) - Using multi-layered perceptron method to classify image files. Utilized Adam Optimizer to minimize cost.  

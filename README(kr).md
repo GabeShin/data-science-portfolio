@@ -6,8 +6,9 @@ There is [English](https://github.com/RangDuk/data-science-portfolio/blob/master
 ## Content
 
 ### Kaggle Competitions
-* [Santander Value Prediction Challenge by Banco Santandar]()
-* [Home Credit Default Risk by Home Credit Group]()
+* [Home Credit Default Risk by Home Credit Group](https://www.kaggle.com/c/home-credit-default-risk)
+    * [EDA and Random Tree baseline model](https://github.com/RangDuk/data-science-portfolio/blob/master/201808%20-%20Home%20Credit%20Default%20Risk/Home%20Credit%20Default%20Risk%20-%20EDA.ipynb) - 강도 높은 EDA. 베이스라인 모델으로 사용할 Random Tree Model 시도 (점수: 0.731). Random Tree Model을 통해 특징성 강한 feature들 선별.
+    * [Feature Enginnering]() - 곧 업데이트 예정
 
 ### Deep Learning
 * [Facial Expression Recognition](https://github.com/RangDuk/data-science-portfolio/blob/master/Facial%20Expression%20Recognition.ipynb) - Numpy 라이브러리만 사용하여 인공신경망 모델을 만듬. 이 프로젝트는 본인의 인공신경망 모델에 대한 이해도를 높이고 단순 plug-and-run이 아닌 모던 라이브러리에 대한 이해도를 높이기 위함. Tanh Activation을 이용한 binary classification 모델과 Softmax를 사용한 classification 모델 만듬.
