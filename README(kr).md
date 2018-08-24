@@ -8,8 +8,9 @@ There is [English](https://github.com/RangDuk/data-science-portfolio/blob/master
 ### Kaggle Competitions
 * [Home Credit Default Risk by Home Credit Group](https://www.kaggle.com/c/home-credit-default-risk)
     * [EDA and Random Tree baseline model](https://github.com/RangDuk/data-science-portfolio/blob/master/201808%20-%20Home%20Credit%20Default%20Risk/Home%20Credit%20Default%20Risk%20-%20EDA.ipynb) - 강도 높은 EDA. 베이스라인 모델으로 사용할 Random Tree Model 시도 (점수: 0.731). Random Tree Model을 통해 특징성 강한 feature들 선별.
-    * [Feature Enginnering]() - 곧 업데이트 예정
-
+    * [Feature Enginnering](https://github.com/RangDuk/data-science-portfolio/blob/master/201808%20-%20Home%20Credit%20Default%20Risk/Home%20Credit%20Default%20Risk%20-%20Feature%20Engineering.ipynb) - Manual Feature Engineering 노트. 각종 데이터 모집 후 per 클라이언트 aggregated features 약 800개 이상을 함수를 이용하여 생성.(Interaction features와 indicator features 추후에 추가 예정) 특징 선택 과정 및 논리 포함.
+    * [LightGBM](https://github.com/RangDuk/data-science-portfolio/blob/master/201808%20-%20Home%20Credit%20Default%20Risk/Home%20Credit%20Default%20Risk%20-%20LightGBM.ipynb) - 모델을 RFM에서 LightGBM으로 교체. (LightGBM이 이 competition에서 효율적이라는게 전반적인 의견) Default parameter로 모델링 후 hyperparameter tuning 시도. 5% 이상의 점수 상승 (0.783).
+    
 ### Deep Learning
 * [Facial Expression Recognition](https://github.com/RangDuk/data-science-portfolio/blob/master/Facial%20Expression%20Recognition.ipynb) - Numpy 라이브러리만 사용하여 인공신경망 모델을 만듬. 이 프로젝트는 본인의 인공신경망 모델에 대한 이해도를 높이고 단순 plug-and-run이 아닌 모던 라이브러리에 대한 이해도를 높이기 위함. Tanh Activation을 이용한 binary classification 모델과 Softmax를 사용한 classification 모델 만듬.
 * [Multi-Layer Perceptron: MNIST Data](https://github.com/RangDuk/data-science-portfolio/blob/master/Multi-Layer%20Perceptron%20-%20MNIST%20data.ipynb) - 다층 퍼셉트론을 이용한 딥러닝을 통해 MNIST 이미지 파일을 예측함. Adam Optimizer를 활용.  
