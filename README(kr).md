@@ -10,7 +10,14 @@ There is [English](https://github.com/RangDuk/data-science-portfolio/blob/master
     * [EDA and Random Tree baseline model](https://github.com/RangDuk/data-science-portfolio/blob/master/201808%20-%20Home%20Credit%20Default%20Risk/Home%20Credit%20Default%20Risk%20-%20EDA.ipynb) - 강도 높은 EDA. 베이스라인 모델으로 사용할 Random Tree Model 시도 (점수: 0.731). Random Tree Model을 통해 특징성 강한 feature들 선별.
     * [Feature Enginnering](https://github.com/RangDuk/data-science-portfolio/blob/master/201808%20-%20Home%20Credit%20Default%20Risk/Home%20Credit%20Default%20Risk%20-%20Feature%20Engineering.ipynb) - Manual Feature Engineering 노트. 각종 데이터 모집 후 per 클라이언트 aggregated features 약 800개 이상을 함수를 이용하여 생성.(Interaction features와 indicator features 추후에 추가 예정) 특징 선택 과정 및 논리 포함.
     * [LightGBM](https://github.com/RangDuk/data-science-portfolio/blob/master/201808%20-%20Home%20Credit%20Default%20Risk/Home%20Credit%20Default%20Risk%20-%20LightGBM.ipynb) - 모델을 RFM에서 LightGBM으로 교체. (LightGBM이 이 competition에서 효율적이라는게 전반적인 의견) Default parameter로 모델링 후 hyperparameter tuning 시도. 5% 이상의 점수 상승 (0.783).
-    
+* [Airbus Ship Detection](https://www.kaggle.com/c/home-credit-default-risk)
+    * [EDA and Data Cleaning]() - 간단한 EDA 및 데이터 비주얼라이제이션. 트레이닝 데이터가 RLE 포멧으로 되어 있어서 Bounding Box로 변환. 오브젝트 디텍션을 위한 csv 파일 저장.
+    * [Object Detection using Tensorflow API]() - Tensorflow Object Detection API를 사용함.  
+
+### Personal Projects
+* [Quidditch Detection]()
+    * [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)를 이용하여 영화 해리포터의 퀴디치 공 디텍션을 트레이닝함. 데이터 콜렉션 부터 디텍션까지 전적으로 진행. 결과물은 짧은 해리포터와 비밀의방 중 짧은 퀴디치 경기. 모델은 골든 스니치를 찾아내는 것은 수월했으나, Quaffle과 Bludger을 구분하는데에는 어려움을 느낌. 또한 사람의 머리 등을 공으로 구분하는 경우도 있었음. 더욱 많은 데이터 수집을 통해 결과물을 향상 시킬 수 있을 것이라고 판단됨. 결과물과 과정은 [walk-through notebook]()에 있음.
+
 ### Deep Learning
 * [Facial Expression Recognition](https://github.com/RangDuk/data-science-portfolio/blob/master/Facial%20Expression%20Recognition.ipynb) - Numpy 라이브러리만 사용하여 인공신경망 모델을 만듬. 이 프로젝트는 본인의 인공신경망 모델에 대한 이해도를 높이고 단순 plug-and-run이 아닌 모던 라이브러리에 대한 이해도를 높이기 위함. Tanh Activation을 이용한 binary classification 모델과 Softmax를 사용한 classification 모델 만듬.
 * [Multi-Layer Perceptron: MNIST Data](https://github.com/RangDuk/data-science-portfolio/blob/master/Multi-Layer%20Perceptron%20-%20MNIST%20data.ipynb) - 다층 퍼셉트론을 이용한 딥러닝을 통해 MNIST 이미지 파일을 예측함. Adam Optimizer를 활용.  

@@ -11,6 +11,14 @@ The projects are presented in the form of Jupyter Notebooks.
     * [Feature Enginnering](https://github.com/RangDuk/data-science-portfolio/blob/master/201808%20-%20Home%20Credit%20Default%20Risk/Home%20Credit%20Default%20Risk%20-%20Feature%20Engineering.ipynb) - Manual feature engineer process. Aggregated features were created. (interaction features/ indicator features should be added in the future) Feature selections included.
     * [LightGBM](https://github.com/RangDuk/data-science-portfolio/blob/master/201808%20-%20Home%20Credit%20Default%20Risk/Home%20Credit%20Default%20Risk%20-%20LightGBM.ipynb) - Used LightGBM to make prediction. Hyperparameter tuning included.
 
+* [Airbus Ship Detection](https://www.kaggle.com/c/home-credit-default-risk)
+    * [EDA and Data Cleaning]() - In this notebook, I did a simple EDA and looked at few training images. Did some tinckering with RLE to change them to bounding boxes. Looked at few images with bounding boxes and saved the csv file.
+    * [Object Detection using Tensorflow API]() - Object Detection using Tensorflow. Finished around 2,000 steps due to computing power, but it could be improved with more epochs I believe. 
+
+### Personal Projects
+* [Quidditch Detection]()
+    * This project I used [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) to detect three quidditch balls in one of the Harry Potter movie. The project ranged from data collection to object detection. The final output of the project was a short video of quidditch game from the movie detecting the objects. The detector was quite good at detecting snitchs but it had hard time distinguishing quaffle with bludgers. There is a [walk-through notebook]() available to see the process.
+
 ### Deep Learning
 * [Multi-Layer Perceptron: MNIST Data](https://github.com/RangDuk/data-science-portfolio/blob/master/Multi-Layer%20Perceptron%20-%20MNIST%20data.ipynb) - Using multi-layered perceptron method to classify image files. Utilized Adam Optimizer to minimize cost.  
 * [Deep Neural Network Classifier: Fake Bank Note Authentication](https://github.com/RangDuk/data-science-portfolio/blob/master/Deep%20Neural%20Network%20Classifier%20-%20Fake%20Bank%20Note%20Authentication.ipynb) - Using DNNClassifier method to predict whether the bank note is authentic or not. Used StandardScaler() to normalize the data and then DNN Estimator to predict the outcome. The accuracy was unusually high, so performed Random Forest Classifer to do a reality check.
