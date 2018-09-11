@@ -1,5 +1,5 @@
 이 리포지토리는 데이터 사이언스 포트폴리오용 프로젝트 모음집입니다.
-모든 프로젝트들은 Jupyter Notebook을 이용하여 작성하였습니다.
+모든 프로젝트들은 Jupyter Notebook을 사용하여 작성하였으며 본인이 직접 작업하였습니다.
 
 There is [English](https://github.com/RangDuk/data-science-portfolio/blob/master/README.md) versions of the portfolio.
 
@@ -11,12 +11,13 @@ There is [English](https://github.com/RangDuk/data-science-portfolio/blob/master
     * [Feature Enginnering](https://github.com/RangDuk/data-science-portfolio/blob/master/201808%20-%20Home%20Credit%20Default%20Risk/Home%20Credit%20Default%20Risk%20-%20Feature%20Engineering.ipynb) - Manual Feature Engineering 노트. 각종 데이터 모집 후 per 클라이언트 aggregated features 약 800개 이상을 함수를 이용하여 생성.(Interaction features와 indicator features 추후에 추가 예정) 특징 선택 과정 및 논리 포함.
     * [LightGBM](https://github.com/RangDuk/data-science-portfolio/blob/master/201808%20-%20Home%20Credit%20Default%20Risk/Home%20Credit%20Default%20Risk%20-%20LightGBM.ipynb) - 모델을 RFM에서 LightGBM으로 교체. (LightGBM이 이 competition에서 효율적이라는게 전반적인 의견) Default parameter로 모델링 후 hyperparameter tuning 시도. 5% 이상의 점수 상승 (0.783).
 * [Airbus Ship Detection](https://www.kaggle.com/c/home-credit-default-risk)
-    * [EDA and Data Cleaning]() - 간단한 EDA 및 데이터 비주얼라이제이션. 트레이닝 데이터가 RLE 포멧으로 되어 있어서 Bounding Box로 변환. 오브젝트 디텍션을 위한 csv 파일 저장.
-    * [Object Detection using Tensorflow API]() - Tensorflow Object Detection API를 사용함.  
+    * [EDA and Data Cleaning](https://github.com/RangDuk/airbus_ship_detection/blob/master/Airbus%20Ship%20Detection%20-%20EDA%20and%20Data%20Cleaning.ipynb) - 간단한 EDA 및 데이터 비주얼라이제이션. 트레이닝 데이터가 RLE 포멧으로 되어 있어서 Bounding Box로 변환. 오브젝트 디텍션을 위한 csv 파일 저장.
+    * [Object Detection using Tensorflow API](https://github.com/RangDuk/airbus_ship_detection/blob/master/Object%20Detection%20using%20Tensorflow%20API.ipynb) - Tensorflow Object Detection API를 사용함.  
+    * [Predictiong and Submission](https://github.com/RangDuk/airbus_ship_detection/blob/master/Predictions%20and%20Submission.ipynb) - 모델을 사용하여 배의 위치 인식 시도. 바운딩 박스 형태로 아웃풋이 나오기 때문에 마스크로 변환 필요. (haven't received lb score yet: )
 
 ### Personal Projects
-* [Quidditch Detection]()
-    * [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)를 이용하여 영화 해리포터의 퀴디치 공 디텍션을 트레이닝함. 데이터 콜렉션 부터 디텍션까지 전적으로 진행. 결과물은 짧은 해리포터와 비밀의방 중 짧은 퀴디치 경기. 모델은 골든 스니치를 찾아내는 것은 수월했으나, Quaffle과 Bludger을 구분하는데에는 어려움을 느낌. 또한 사람의 머리 등을 공으로 구분하는 경우도 있었음. 더욱 많은 데이터 수집을 통해 결과물을 향상 시킬 수 있을 것이라고 판단됨. 결과물과 과정은 [walk-through notebook]()에 있음.
+* [Quidditch Detection](https://github.com/RangDuk/quidditch_balls_detection)
+    * [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)를 이용하여 영화 해리포터의 퀴디치 공 디텍션을 트레이닝함. 데이터 콜렉션 부터 디텍션까지 전적으로 진행. 결과물은 짧은 해리포터와 비밀의방 중 짧은 퀴디치 경기. 모델은 골든 스니치를 찾아내는 것은 수월했으나, Quaffle과 Bludger을 구분하는데에는 어려움을 느낌. 또한 사람의 머리 등을 공으로 구분하는 경우도 있었음. 더욱 많은 데이터 수집을 통해 결과물을 향상 시킬 수 있을 것이라고 판단됨. 결과물과 과정은 [walk-through notebook](https://github.com/RangDuk/quidditch_balls_detection/blob/master/Walk-Through.ipynb)에 있음.
 
 ### Deep Learning
 * [Facial Expression Recognition](https://github.com/RangDuk/data-science-portfolio/blob/master/Facial%20Expression%20Recognition.ipynb) - Numpy 라이브러리만 사용하여 인공신경망 모델을 만듬. 이 프로젝트는 본인의 인공신경망 모델에 대한 이해도를 높이고 단순 plug-and-run이 아닌 모던 라이브러리에 대한 이해도를 높이기 위함. Tanh Activation을 이용한 binary classification 모델과 Softmax를 사용한 classification 모델 만듬.
@@ -43,5 +44,5 @@ There is [English](https://github.com/RangDuk/data-science-portfolio/blob/master
 *tools used: Pandas, Folium, Seaborn, Matplotlib, Plotly.js*
 
 ### Others
-* [주성분 분석 ](https://github.com/RangDuk/data-science-portfolio/blob/master/Principal%20Component%20Analysis.ipynb) - 주성분 분석을 이용하여 데이터 요약 연습. 유방암 데이터를 사용하여 데이터 요약 후 시각화.
+* [PCA/ 주성분 분석 ](https://github.com/RangDuk/data-science-portfolio/blob/master/Principal%20Component%20Analysis.ipynb) - 주성분 분석을 이용하여 데이터 요약 연습. 유방암 데이터를 사용하여 데이터 요약 후 시각화.
 * [특이값 분해 (SVD) ](https://github.com/RangDuk/data-science-portfolio/blob/master/Recommender%20Systems%20-%20Collaborative%20Filtering%20on%20Movie%20Lens%20Data%20Set.ipynb) - 특이값 분해 연습은 추천자 시스템에서 사용. (모델기반 협업 필터링)
